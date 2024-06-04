@@ -1,40 +1,38 @@
-import os
 import requests
 from datetime import datetime
 
-# 从GitHub获取list文件
-def get_lists_from_github(repo_urls):
-    lists = []
-    for url in repo_urls:
-        response = requests.get(url)
-        if response.status_code == 200:
-            lists.append(response.text.split('\n'))
-    return lists
+# GitHub URLs of list files
+list_urls = [
+    "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Gemini/Gemini.list",
+    'https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/QuantumultX/OpenAI/OpenAI.list',
+    'https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/QuantumultX/Claude/Claude.list',
+    'https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/QuantumultX/Copilot/Copilot.list'，
+    'https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/QuantumultX/Bing/Bing.list',
+    # Add more URLs here
+]
 
-# 合并多个list文件
-def merge_lists(lists, custom_list=[]):
-    merged_list = []
-    for l in lists:
-        merged_list.extend(l)
-    merged_list.extend(custom_list)
-    return list(set(merged_list))
+# Custom websites to add
+custom_websites = [
+    "HOST,perplexity.ai,Copilot",
+]
 
-# 将合并后的列表写入文件
-def write_to_file(merged_list, filename):
-    with open(filename, 'w') as f:
-        f.write('\n'.join(merged_list))
+# Fetch list files and merge contents
+merged_list = set()
+for url in list_urls:
+    response = requests.get(url)
+    merged_list.update(response.text.split("\n"))
 
-# 主函数
-def main():
-    repo_urls = [
-        'https://raw.githubusercontent.com/user1/repo1/main/list.txt',
-        'https://raw.githubusercontent.com/user2/repo2/main/list.txt'
-    ]
-    custom_list = ['custom1', 'custom2']
-    
-    lists = get_lists_from_github(repo_urls)
-    merged_list = merge_lists(lists, custom_list)
-    write_to_file(merged_list, 'merged_list.txt')
+# Add custom websites
+merged_list.update(custom_websites)
 
-if __name__ == '__main__':
-    main()
+# Write merged list to file
+filename = f"merged-list.txt"
+with open(filename, "w") as f:
+    f.write("\n".join(merged_list))
+
+# Commit changes to GitHub repository
+# (Requires Git setup and authentication)
+import subprocess
+subprocess.run(["git", "add", filename])
+subprocess.run(["git", "commit", "-m", f"Updated merged list: {now}"])
+subprocess.run(["git", "push"])
