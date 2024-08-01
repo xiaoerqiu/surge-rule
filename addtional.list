@@ -18,5 +18,8 @@ DOMAIN-SUFFIX,mumu-apk.fp.ps.netease.com,REJECT
 DOMAIN-SUFFIX,mumu.nie.netease.com,REJECT
 DOMAIN-SUFFIX,nemu-file.fp.ps.netease.com,REJECT
 
+#日常拦截
+DOMAIN-SUFFIX,order.luckydogsoft.com,REJECT
+
 #公司
 DOMAIN-SUFFIX,zhizhangyi.com,DIRECT
