@@ -1,25 +1,11 @@
 #日常使用
-DOMAIN-SUFFIX,ybfl.net,🐟 漏网之鱼
-DOMAIN-SUFFIX,wgetcloud.ltd,🐟 漏网之鱼
-DOMAIN-SUFFIX,dailijichang.com,🐟 漏网之鱼
-DOMAIN-SUFFIX,2024vpn.net,🐟 漏网之鱼
-DOMAIN-SUFFIX,233heji.com,🐟 漏网之鱼
-DOMAIN-SUFFIX,linux.do,🐟 漏网之鱼
-DOMAIN-SUFFIX,catcat.blog,🐟 漏网之鱼
-DOMAIN-SUFFIX,figma.com,🐟 漏网之鱼
-DOMAIN-SUFFIX,v2ex.com,🐟 漏网之鱼
-DOMAIN-SUFFIX,macked.app,🐟 漏网之鱼
-
-#MUMu模拟器拦截
-DOMAIN-SUFFIX,romsdk-mobile.uu.163.com,REJECT
-DOMAIN-SUFFIX,dispatcher-mobile.uu.163.com,REJECT
-DOMAIN-SUFFIX,store-api.mumu.163.com,REJECT
-DOMAIN-SUFFIX,mumu-apk.fp.ps.netease.com,REJECT
-DOMAIN-SUFFIX,mumu.nie.netease.com,REJECT
-DOMAIN-SUFFIX,nemu-file.fp.ps.netease.com,REJECT
-
-#日常拦截
-DOMAIN-SUFFIX,order.luckydogsoft.com,REJECT
-
-#公司
-DOMAIN-SUFFIX,zhizhangyi.com,DIRECT
+DOMAIN-SUFFIX,ybfl.net
+DOMAIN-SUFFIX,wgetcloud.ltd
+DOMAIN-SUFFIX,dailijichang.com
+DOMAIN-SUFFIX,2024vpn.net
+DOMAIN-SUFFIX,233heji.com
+DOMAIN-SUFFIX,linux.do
+DOMAIN-SUFFIX,catcat.blog
+DOMAIN-SUFFIX,figma.com
+DOMAIN-SUFFIX,v2ex.com
+DOMAIN-SUFFIX,macked.app
