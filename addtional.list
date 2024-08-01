@@ -1,3 +1,4 @@
+#日常使用
 DOMAIN-SUFFIX,ybfl.net,🐟 漏网之鱼
 DOMAIN-SUFFIX,wgetcloud.ltd,🐟 漏网之鱼
 DOMAIN-SUFFIX,dailijichang.com,🐟 漏网之鱼
@@ -8,4 +9,14 @@ DOMAIN-SUFFIX,catcat.blog,🐟 漏网之鱼
 DOMAIN-SUFFIX,figma.com,🐟 漏网之鱼
 DOMAIN-SUFFIX,v2ex.com,🐟 漏网之鱼
 DOMAIN-SUFFIX,macked.app,🐟 漏网之鱼
+
+#MUMu模拟器拦截
+DOMAIN-SUFFIX,omsdk-mobile.uu.163.com,REJECT
+DOMAIN-SUFFIX,dispatcher-mobile.uu.163.com,REJECT
+DOMAIN-SUFFIX,store-api.mumu.163.com,REJECT
+DOMAIN-SUFFIX,mumu-apk.fp.ps.netease.com,REJECT
+DOMAIN-SUFFIX,mumu.nie.netease.com,REJECT
+DOMAIN-SUFFIX,nemu-file.fp.ps.netease.com,REJECT
+
+#公司
 DOMAIN-SUFFIX,zhizhangyi.com,DIRECT
