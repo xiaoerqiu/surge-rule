@@ -1,0 +1,10 @@
+#MUMu模拟器拦截
+DOMAIN-SUFFIX,romsdk-mobile.uu.163.com
+DOMAIN-SUFFIX,dispatcher-mobile.uu.163.com
+DOMAIN-SUFFIX,store-api.mumu.163.com
+DOMAIN-SUFFIX,mumu-apk.fp.ps.netease.com
+DOMAIN-SUFFIX,mumu.nie.netease.com
+DOMAIN-SUFFIX,nemu-file.fp.ps.netease.com
+
+#日常拦截
+DOMAIN-SUFFIX,order.luckydogsoft.com
