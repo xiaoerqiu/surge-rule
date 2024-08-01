@@ -11,7 +11,7 @@ DOMAIN-SUFFIX,v2ex.com,🐟 漏网之鱼
 DOMAIN-SUFFIX,macked.app,🐟 漏网之鱼
 
 #MUMu模拟器拦截
-DOMAIN-SUFFIX,omsdk-mobile.uu.163.com,REJECT
+DOMAIN-SUFFIX,romsdk-mobile.uu.163.com,REJECT
 DOMAIN-SUFFIX,dispatcher-mobile.uu.163.com,REJECT
 DOMAIN-SUFFIX,store-api.mumu.163.com,REJECT
 DOMAIN-SUFFIX,mumu-apk.fp.ps.netease.com,REJECT
