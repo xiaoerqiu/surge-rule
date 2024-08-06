@@ -6,5 +6,6 @@ DOMAIN-SUFFIX,mumu-apk.fp.ps.netease.com
 DOMAIN-SUFFIX,mumu.nie.netease.com
 DOMAIN-SUFFIX,nemu-file.fp.ps.netease.com
 
-#日常拦截
+#anygo屏蔽
 DOMAIN-SUFFIX,order.luckydogsoft.com
+DOMAIN-SUFFIX,ip-api.com
