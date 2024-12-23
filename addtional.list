@@ -17,4 +17,4 @@ DOMAIN-KEYWORD,mxwljsq
 DOMAIN-SUFFIX,dealmoon.ca
 DOMAIN-SUFFIX,dalao.im
 DOMAIN-SUFFIX,synology.cn
-IP-CIDR,8.219.121.179/32
+IP-CIDR,8.219.121.179/32,no-resolve
