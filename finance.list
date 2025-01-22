@@ -1,1 +1,5 @@
+#虚拟币
+DOMAIN-SUFFIX,binance.com
 
+#支付
+DOMAIN-SUFFIX,paypal.com
