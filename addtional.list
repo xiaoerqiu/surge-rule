@@ -26,3 +26,7 @@ DOMAIN-SUFFIX,localsend.org
 #vpn
 DOMAIN-SUFFIX,xftld.org
 DOMAIN-KEYWORD,mxwljsq
+
+#电影网站
+DOMAIN-SUFFIX,hdhive.online
+DOMAIN-SUFFIX,justwatch.com
