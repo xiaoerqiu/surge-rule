@@ -104,4 +104,6 @@ DOMAIN-SUFFIX,claude.ai
 DOMAIN-SUFFIX,perplexity.ai
 DOMAIN-SUFFIX,sora.com
 
+#grok
 DOMAIN-SUFFIX,x.ai
+DOMAIN-SUFFIX,grok.com
