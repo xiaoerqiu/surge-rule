@@ -30,3 +30,6 @@ DOMAIN-KEYWORD,mxwljsq
 #电影网站
 DOMAIN-SUFFIX,hdhive.online
 DOMAIN-SUFFIX,justwatch.com
+
+#病毒软件样本网站
+DOMAIN-SUFFIX,bazaar.abuse.ch
