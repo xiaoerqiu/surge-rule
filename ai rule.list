@@ -107,3 +107,6 @@ DOMAIN-SUFFIX,sora.com
 #grok
 DOMAIN-SUFFIX,x.ai
 DOMAIN-SUFFIX,grok.com
+
+#openrouter
+DOMAIN-SUFFIX,openrouter.ai
