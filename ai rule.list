@@ -110,3 +110,6 @@ DOMAIN-SUFFIX,grok.com
 
 #openrouter
 DOMAIN-SUFFIX,openrouter.ai
+
+#cursor
+DOMAIN-SUFFIX,cursor.com
