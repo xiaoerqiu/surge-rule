@@ -39,3 +39,6 @@ DOMAIN-SUFFIX,x86.fr
 
 #zlibrary
 DOMAIN-SUFFIX,z-lib.id
+
+#reddit
+DOMAIN-KEYWORD,reddit
