@@ -40,6 +40,9 @@ DOMAIN-SUFFIX,x86.fr
 #zlibrary
 DOMAIN-SUFFIX,z-lib.id
 
+#google
+DOMAIN-SUFFIX,chrome.com
+
 #reddit
 DOMAIN-KEYWORD,reddit
 DOMAIN-SUFFIX,redd.it
