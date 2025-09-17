@@ -46,3 +46,6 @@ DOMAIN-SUFFIX,chrome.com
 #reddit
 DOMAIN-KEYWORD,reddit
 DOMAIN-SUFFIX,redd.it
+
+#接码平台
+DOMAIN-SUFFIX,sms-activate.io
