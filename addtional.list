@@ -49,3 +49,6 @@ DOMAIN-SUFFIX,redd.it
 
 #接码平台
 DOMAIN-SUFFIX,sms-activate.io
+
+#虚拟机
+DOMAIN-SUFFIX,proxmox.com
