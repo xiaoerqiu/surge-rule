@@ -9,3 +9,13 @@ DOMAIN-SUFFIX,nemu-file.fp.ps.netease.com
 #anygo屏蔽
 DOMAIN-SUFFIX,order.luckydogsoft.com
 DOMAIN-SUFFIX,ip-api.com
+
+#apple更新
+DOMAIN-SUFFIX,swdist.apple.com
+DOMAIN-SUFFIX,swscan.apple.com
+DOMAIN-SUFFIX,swcdn.apple.com
+DOMAIN-SUFFIX,xp.apple.com
+DOMAIN-SUFFIX,gdmf.apple.com
+DOMAIN-SUFFIX,xp.apple.com
+DOMAIN-SUFFIX,mesu.apple.com
+DOMAIN-SUFFIX,updates.cdn-apple.com
