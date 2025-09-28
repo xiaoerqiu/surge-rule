@@ -52,3 +52,6 @@ DOMAIN-SUFFIX,sms-activate.io
 
 #虚拟机
 DOMAIN-SUFFIX,proxmox.com
+
+#油猴
+DOMAIN-SUFFIX,tampermonkey.net
