@@ -113,3 +113,6 @@ DOMAIN-SUFFIX,openrouter.ai
 
 #cursor
 DOMAIN-SUFFIX,cursor.com
+
+#figma
+DOMAIN-KEYWORD,figma
