@@ -1,0 +1,8 @@
+#!name = YouTube Nocookie Redirect
+#!desc = 将嵌入式 youtube-nocookie.com 重定向到 youtube.com，以便带上登录 Cookie
+
+[MITM]
+hostname = %APPEND% *.youtube-nocookie.com
+
+[URL Rewrite]
+^https?://(www\.)?youtube-nocookie\.com/(.*) https://www.youtube.com/$2 302
