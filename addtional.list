@@ -64,3 +64,6 @@ DOMAIN-SUFFIX,zeabur.app
 DOMAIN-SUFFIX,hero-sms.com
 DOMAIN-SUFFIX,immersivetranslate.com
 DOMAIN-SUFFIX,gvt2.com
+
+#apple推送
+DOMAIN-SUFFIX,push.apple.com 
