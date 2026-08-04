@@ -70,5 +70,7 @@ DOMAIN-SUFFIX,gvt2.com
 #apple推送
 DOMAIN-SUFFIX,push.apple.com 
 
+#公益站
 DOMAIN-SUFFIX,aihub.top
 DOMAIN-SUFFIX,abrdns.com
+DOMAIN-SUFFIX,chybenzun.top
