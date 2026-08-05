@@ -26,6 +26,3 @@ DOMAIN-SUFFIX,qifu-api.baidubce.com
 
 #vps
 IP-CIDR,38.101.29.250/32,DIRECT
-
-#中转站
-DOMAIN-SUFFIX,chybenzun.top
