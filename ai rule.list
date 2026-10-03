@@ -125,3 +125,6 @@ DOMAIN-SUFFIX,bitwarden.com
 #dcoker
 DOMAIN-KEYWORD,docker
 DOMAIN-KEYWORD,dockerhub
+
+#Claude入站地址
+IP-CIDR,160.79.104.0/23
