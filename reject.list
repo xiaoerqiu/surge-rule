@@ -5,6 +5,9 @@ DOMAIN-SUFFIX,store-api.mumu.163.com
 DOMAIN-SUFFIX,mumu-apk.fp.ps.netease.com
 DOMAIN-SUFFIX,mumu.nie.netease.com
 DOMAIN-SUFFIX,nemu-file.fp.ps.netease.com
+DOMAIN-SUFFIX,api-pro.mumu.163.com
+DOMAIN-SUFFIX,sentry.netease.com
+DOMAIN-SUFFIX,api.mumu.nie.netease.com
 
 #anygo屏蔽
 DOMAIN-SUFFIX,order.luckydogsoft.com
