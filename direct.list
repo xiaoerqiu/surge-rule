@@ -29,3 +29,8 @@ IP-CIDR,38.101.29.250/32,DIRECT
 
 #ai公益站
 DOMAIN-SUFFIX,hybgzs.com
+
+#mumu模拟器
+DOMAIN-SUFFIX,api-pro.mumu.163.com
+DOMAIN-SUFFIX,mumu.nie.netease.com
+DOMAIN-SUFFIX,api.mumu.nie.netease.com
