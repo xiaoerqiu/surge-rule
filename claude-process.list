@@ -1,0 +1,11 @@
+# Claude 相关进程（macOS），配合 custom.conf 中放在局域网规则之后的 RULE-SET 使用
+# 进程名区分大小写
+
+# Claude 桌面版主进程及 Electron 子进程：Claude、Claude Helper、Claude Helper (Renderer)、Claude Helper (Plugin)
+PROCESS-NAME,Claude*
+
+# 桌面版自带的 Claude Code：~/Library/Application Support/Claude/claude-code/<版本>/.../claude.app/Contents/MacOS/claude
+PROCESS-NAME,claude
+
+# 终端原生安装的 Claude Code CLI：进程名是版本号，只能按路径匹配
+PROCESS-NAME,/Users/*/.local/share/claude/versions/*
