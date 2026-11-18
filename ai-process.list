@@ -1,4 +1,4 @@
-# Claude、Codex 相关进程（macOS），配合 custom.conf 中放在局域网规则之后的 RULE-SET 使用
+# AI 工具相关进程（macOS）：Claude、Codex。配合 custom.conf 中放在局域网规则之后的 RULE-SET 使用
 # 进程名区分大小写
 
 # Claude 桌面版主进程及 Electron 子进程：Claude、Claude Helper、Claude Helper (Renderer)、Claude Helper (Plugin)
