@@ -107,3 +107,9 @@ DOMAIN-KEYWORD,dockerhub
 
 #Claude入站地址
 IP-CIDR,160.79.104.0/23,no-resolve
+
+#Apple News（需走美国节点）
+DOMAIN-SUFFIX,apple.news
+DOMAIN-KEYWORD,news-edge
+DOMAIN-KEYWORD,news-client
+DOMAIN-KEYWORD,news-events
